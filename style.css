@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("./laura-spina-iWbIN1EGmG4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(225, 226, 236);
+    text-align: center;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-around;
+
+    /* background-color: green; */
+}
+
+.key{
+    border: .3rem solid rgb(218, 35, 35);
+    border-radius: .2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    text-align: center;
+    transition: all .07s ;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+.playing{
+    transform: scale(1.1);
+    border-color: chartreuse;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+kbd{
+    display: block;
+    font-size: 30px;
+}
+
+.Sound{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #ffc600;
+}
